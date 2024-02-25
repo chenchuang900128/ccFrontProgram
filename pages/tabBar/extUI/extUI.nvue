@@ -1,0 +1,41 @@
+<template>
+    <view class="uni-container">
+       
+    </view>
+</template>
+<script>
+    export default {
+        
+        data() {
+            return{
+            	
+            }
+        },
+        onShareAppMessage() {
+            return {
+                title: '欢迎体验uni-app',
+                path: '/pages/tabBar/API/API'
+            };
+        },
+        onNavigationBarButtonTap(e) {
+           
+        },
+        onLoad() {
+        },
+        onReady() {
+        },
+        onShow() {
+            
+        },
+        onHide() {
+        },
+
+        methods: {
+          
+        }
+    };
+</script>
+
+<style>
+   
+</style>
